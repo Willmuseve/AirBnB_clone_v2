@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # A fabric script that generates a .tgz archive from the items
 # of the web_static folder of your AirBnB Clone repositorry
 
