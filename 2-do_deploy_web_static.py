@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """defines func do_deploy
 """
+
+
 from fabric.api import run, put, env
 from os import path
 
