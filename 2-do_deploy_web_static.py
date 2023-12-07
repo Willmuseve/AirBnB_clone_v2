@@ -14,8 +14,8 @@ def do_deploy(archive_path):
         return False
     else:
         try:
-            last_in = archive_path.rfind("/") + 1
-            arch = archive_path[last_ind:]
+            ind = archive_path.rfind("/") + 1
+            arch = archive_path[ind:]
             w = arch[: arch.find(".")]
             put(archive_path, "/tmp/")
             run("mkdir -p /data/web_static/releases/{}/".
