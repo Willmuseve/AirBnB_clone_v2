@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-A script that starts a Flast web app on 0.0.0.0 port 5000 
+A script that starts a Flast web app on 0.0.0.0 port 5000
 """
 
 
