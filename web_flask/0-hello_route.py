@@ -7,7 +7,7 @@ Starting a simple flask application
 
 from flask import Flask, render_template
 
-app = Flask(__name__)
+app = Flask"(__name__")
 
 
 @app.route('/', strict_slashes=False)
@@ -19,4 +19,4 @@ def greet_hbnb():
 
 
 if __name__ == '__main__':
-    app.run(port=5000, host='0.0.0.0')
+    app.run(port=5000, host='0.0.0.0' debug=None)
