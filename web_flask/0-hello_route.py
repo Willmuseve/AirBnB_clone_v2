@@ -5,7 +5,7 @@ Starting a simple flask application
 """
 
 
-from flask import Flask, render_template
+from flask import Flask
 
 app = Flask(__name__)
 
@@ -15,8 +15,8 @@ def greet_hbnb():
     """
     a function that returns 'Hello HBNB'.
     """
-    return render_template("10-hbnb_filters.html")
+    return "Hello HBNB!"
 
 
 if __name__ == '__main__':
-    app.run(port=5000, host='0.0.0.0' debug=None)
+    app.run(port=5000, host='0.0.0.0')
